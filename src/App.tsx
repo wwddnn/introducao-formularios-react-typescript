@@ -29,7 +29,7 @@ function App() {
 
   return (
     <>
-      <form onSubmit={handleFormSubmit}> /* onSubmit intercepta o evento submit do botao*/
+      <form onSubmit={handleFormSubmit}> 
         <div>
           <input 
             name="firstName"
